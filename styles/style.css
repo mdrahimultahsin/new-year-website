@@ -521,14 +521,15 @@ footer {
   }
   .discount-sticker {
     width: 100px;
-    height:100px;
+    height: 100px;
     position: absolute;
     right: 80px;
-    bottom:300px;
+    bottom: 300px;
   }
   .discount-sticker img {
     width: 100%;
   }
+
   #portfolio {
     padding: 0 20px;
   }
@@ -554,12 +555,13 @@ footer {
   #subscribe {
     height: 600px;
     padding: 0 20px;
+    text-align: center;
   }
   #subscribe .message-img {
     width: 120px;
   }
   #subscribe .title {
-    font-size: 22px;
+    font-size: 30px;
   }
   #subscribe .description {
     font-size: 18px;
@@ -599,6 +601,154 @@ footer {
     font-size: 20px;
   }
   .copyright-area {
-    font-size:18px;
+    font-size: 18px;
+  }
+}
+
+/* For Tablet Device */
+@media screen and (min-width: 577px) and (max-width: 990px) {
+  section {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 100px;
+  }
+  #offer .offer-img {
+    width: 90%;
+    height: auto;
+  }
+  #mid-night-banner {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 10px;
+    text-align: center;
+  }
+  #mid-night-banner .title {
+    width: 100%;
+  }
+  #mid-night-banner .description {
+    width: 100%;
+  }
+  #offer2 {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .offer2-column1 {
+    padding: 0;
+  }
+  .offer2-column1 p {
+    width: 100%;
+  }
+  .offer2-column2 {
+    width: 320px;
+    height: 320px;
+  }
+  .offer2-column2 .offer2-img {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+  }
+  .offer2-column3 p {
+    width: 100%;
+  }
+  #discount {
+    padding: 0;
+  }
+  #discount .subtitle {
+    padding: 0 20px;
+  }
+  #discount .title {
+    padding: 0 20px;
+  }
+  #discount .description {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .discount-box-container {
+    width: 100%;
+    height: 400px;
+  }
+  .discount-box-container .shapes {
+    width: 100%;
+    height: 200px;
+  }
+  .discount-box-container .shapes img {
+    width: 100%;
+    height: 100%;
+  }
+  .discount-box-container .box-img {
+    width: 300px;
+    bottom: 50px;
+    left: 50px;
+  }
+  .discount-box-container .box-img img {
+    width: 100%;
+  }
+  .discount-sticker {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 100px;
+    bottom: 300px;
+  }
+  .discount-sticker img {
+    width: 100%;
+  }
+
+  #portfolio {
+    padding: 0 20px;
+  }
+  #portfolio .description {
+    width: 100%;
+  }
+  #portfolio .portfolio-img-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #portfolio .portfolio-img-container img {
+    width: 100%;
+  }
+  #subscribe {
+    height: 600px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  #subscribe .message-img {
+    width: 120px;
+  }
+  #subscribe .description {
+    width: 100%;
+  }
+  #subscribe .input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  #subscribe .input-area input {
+    padding: 25px 20px;
+  }
+  #subscribe .input-area button {
+    width: 200px;
+    position: relative;
+    left: 0;
+    right: 0px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  footer {
+    height: auto;
+    padding: 100px 20px;
+  }
+  .footer-content {
+    flex-direction: row;
+  }
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  .footer-content .box {
+    margin-top: 10px;
   }
 }
